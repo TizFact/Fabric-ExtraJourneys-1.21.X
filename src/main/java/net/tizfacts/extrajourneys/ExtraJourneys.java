@@ -2,6 +2,7 @@ package net.tizfacts.extrajourneys;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.tizfacts.extrajourneys.block.ModBlocks;
 import net.tizfacts.extrajourneys.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,5 +14,6 @@ public class ExtraJourneys implements ModInitializer {
 	@Override
 	public void onInitialize() {
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 	}
 }

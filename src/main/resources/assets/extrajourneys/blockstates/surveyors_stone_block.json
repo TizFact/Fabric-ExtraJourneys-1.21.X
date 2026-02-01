@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "extrajourneys:block/surveyors_stone_block"
+    }
+  }
+}

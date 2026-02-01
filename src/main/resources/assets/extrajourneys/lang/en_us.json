@@ -1,3 +1,9 @@
 {
-  "item.extrajourneys.travelers_compass": "Travelers Compass"
+  "item.extrajourneys.travelers_compass": "Travelers Compass",
+  "item.extrajourneys.wayfarers_feather": "Wayfarers Feather",
+  "item.extrajourneys.journey_token": "Journey Token",
+  "item.extrajourneys.bound_journal": "Bound Journal",
+
+  "block.extrajourneys.trail_marker_block": "Trail Marker",
+  "block.extrajourneys.surveyors_stone_block": "Surveyors Stone"
 }

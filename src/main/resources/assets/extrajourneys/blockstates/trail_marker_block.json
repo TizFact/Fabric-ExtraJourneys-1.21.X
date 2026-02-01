@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "extrajourneys:block/trail_marker_block"
+    }
+  }
+}
