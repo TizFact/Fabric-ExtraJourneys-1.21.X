@@ -12,7 +12,6 @@ public class ModItems {
 
     public static final Item TRAVELERS_COMPASS = registerItem("travelers_compass", new Item(new Item.Settings()));
     public static final Item WAYFARERS_FEATHER = registerItem("wayfarers_feather", new Item(new Item.Settings()));
-    public static final Item JOURNEY_TOKEN = registerItem("journey_token", new Item(new Item.Settings()));
     public static Item BOUND_JOURNAL = registerItem("bound_journal", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
@@ -25,7 +24,6 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(TRAVELERS_COMPASS);
             fabricItemGroupEntries.add(WAYFARERS_FEATHER);
-            fabricItemGroupEntries.add(JOURNEY_TOKEN);
             fabricItemGroupEntries.add(BOUND_JOURNAL);
         });
     }
