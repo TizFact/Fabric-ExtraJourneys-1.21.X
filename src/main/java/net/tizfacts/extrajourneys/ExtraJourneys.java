@@ -12,10 +12,13 @@ public class ExtraJourneys implements ModInitializer {
 	public static final String MOD_ID = "extrajourneys";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-	@Override
-	public void onInitialize() {
-        ModItemGroups.registerModItemGroups();
-        ModItems.registerModItems();
+    @Override
+    public void onInitialize() {
+        LOGGER.info("Initializing ExtraJourneys");
+
         ModBlocks.registerModBlocks();
-	}
-}
+        ModItems.registerModItems();
+        ModItemGroups.registerModItemGroups();
+
+        LOGGER.info("ExtraJourneys initialized successfully!");
+    }}
